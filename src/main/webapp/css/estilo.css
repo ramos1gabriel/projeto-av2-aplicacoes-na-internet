@@ -1,0 +1,104 @@
+body {
+    background-color: #282830;
+    color: #fff;
+}
+
+.fakeimg {
+    height: 200px;
+    background: #aaa;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+/* MODAL */
+.modal-header, h4, .close {
+    background-color: #3BB4B4;
+    color:white !important;
+    text-align: center;
+    font-size: 30px;
+}
+.modal-footer {
+    background-color: #3BB4B4;
+}
+#model-topo {
+    background-color: #3BB4B4;
+}
+.modal-body {
+    background-color: #1E1E26;
+}
+
+#topo {
+    background-color: #1E1E26;
+    color: #fff;
+}
+
+#menu-site {
+    color: #3BB4B4;
+}
+
+#rodape {
+    background-color: #343A40;
+}
+
+#img-login {
+    max-width: 200px;
+    max-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tabela-usuario-cabecalho {
+    background-color: #3BB4B4;
+}
+
+#tabela-usuario tr:hover {
+    color: #3BB4B4;
+}
+
+#btn-vn {
+    background-color: #3BB4B4;
+}
+
+.imgproduto {
+    max-width: 350px;
+    max-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+    border: 5px solid #3BB4B4;
+}
+
+.produto-vitrine {
+    text-align: center;
+    background-color: #1E1E26;
+    border: 2px solid #3BB4B4;
+}
+
+#img-compras {
+    max-width: 150px;
+    max-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#msg-sem-compras {
+    text-align: center;
+}
+
+.cor-do-site {
+    color: #3BB4B4;
+}
+
+#img-about {
+    max-width: 350px;
+    max-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
