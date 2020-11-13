@@ -7,7 +7,7 @@ Tecnologias:
 * Java: 8
 * MySQL: v10.1.30
 
-# Projeto Torpedo
+# Projeto e-commerce Nerdstore
 
 * Trabalho final da disciplina de Aplicações na Internet da Universidade Veiga de Almeida. 
 * Docente: Vincenzo de Roberto Junior
