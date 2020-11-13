@@ -6,6 +6,7 @@ Tecnologias:
 * JQuery: v3.5.1
 * Java: 8
 * MySQL: v10.1.30
+* Maven, JSTL
 
 # Projeto e-commerce Nerdstore
 
