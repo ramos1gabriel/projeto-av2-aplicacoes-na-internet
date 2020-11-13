@@ -5,11 +5,13 @@
  */
 package com.av2.gabriel.sousa.model;
 
+import java.io.Serializable;
+
 /**
  *
  * @author Gabriel
  */
-public class Produto {
+public class Produto implements Serializable {
     private Long id;
     private String nome;
     private Double preco;

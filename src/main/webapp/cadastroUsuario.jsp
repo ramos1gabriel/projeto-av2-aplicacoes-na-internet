@@ -23,7 +23,7 @@
                 <div class="col-sm-6">
                     <div class="modal-content">
                         <div class="modal-header" style="padding:35px 50px;" id="model-topo">
-                            <img src="${pageContext.request.contextPath}/img/logo-login.png" id="img-login"/>
+                            <img src="${pageContext.request.contextPath}/img/logo-login.png" id="img-login" title="voltar pagina inicial"/>
                         </div>
                         <div id="form-cadastro">
                             <div class="modal-body" style="padding:40px 50px;">
@@ -83,6 +83,13 @@
                 </div>
                 <!-- CADASTRO FIM -->
                 <div class="col-sm-3">&nbsp;</div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="centralizar">
+                        <a href="${pageContext.request.contextPath}/index.jsp"><h3 class="cor-do-site">Voltar para página inicial</h3></a>
+                    </div>
+                </div>
             </div>
         </div>
     </body>

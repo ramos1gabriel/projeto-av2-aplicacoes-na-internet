@@ -5,13 +5,14 @@
  */
 package com.av2.gabriel.sousa.model;
 
+import java.io.Serializable;
 import java.util.Objects;
 
 /**
  *
  * @author Gabriel
  */
-public class Usuario {
+public class Usuario implements Serializable {
     
     private Long id;
     private String nome;

@@ -102,3 +102,7 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
+.centralizar {
+    text-align: center;
+}

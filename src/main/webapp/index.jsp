@@ -29,10 +29,10 @@
                     <h3>Outros projetos</h3>
                     <ul class="nav nav-pills flex-column">
                         <li class="nav-item">
-                            <a class="nav-link text-info" href="https://jovemnerd.com.br/nerdcast/" target="_blank">Nerdcast</a>
+                            <a class="nav-link text-info" href="https://jovemnerd.com.br/nerdcast/" target="_blank">NerdCast</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-info" href="https://jovemnerd.com.br/nerdplayer/" target="_blank">Nerdplayer</a>
+                            <a class="nav-link text-info" href="https://jovemnerd.com.br/nerdplayer/" target="_blank">NerdPlayer</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-info" href="https://jovemnerd.com.br/nerdologia/" target="_blank">Nerdologia</a>

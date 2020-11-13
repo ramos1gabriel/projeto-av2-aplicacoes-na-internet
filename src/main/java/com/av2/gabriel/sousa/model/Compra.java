@@ -5,6 +5,7 @@
  */
 package com.av2.gabriel.sousa.model;
 
+import java.io.Serializable;
 import java.sql.Date;
 import java.time.LocalDate;
 
@@ -12,7 +13,7 @@ import java.time.LocalDate;
  *
  * @author Gabriel
  */
-public class Compra {
+public class Compra implements Serializable {
     Long id;
     Long idUsuario;
     Long idProduto;
