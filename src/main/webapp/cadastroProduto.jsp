@@ -55,8 +55,8 @@
                                     <input type="text" class="form-control" id="descricao" name="descricao" placeholder="Descrição" maxlength="100" value="${produto.descricao}">
                                 </div>
                                 <div class="form-group">
-                                    <label for="url"><span class="glyphicon glyphicon-user"></span>URL da imagem</label>
-                                    <input type="text" class="form-control" id="url" name="url" placeholder="Url imagem" maxlength="100" value="${produto.url}">
+                                    <label for="url"><span class="glyphicon glyphicon-user"></span>URL da imagem <b>(Opcional)</b></label>
+                                    <input type="text" class="form-control" id="url" name="url" placeholder="URL da imagem" maxlength="100" value="${produto.url}">
                                 </div>
                                 <button type="submit" class="btn btn-block" style="color:#fff;background-color: #3BB4B4;"><span class="glyphicon glyphicon-off"></span>Cadastrar Produto</button>
                             </form>

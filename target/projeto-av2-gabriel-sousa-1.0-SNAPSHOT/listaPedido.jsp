@@ -26,7 +26,7 @@
                 <div class="col-sm-12">
                     <c:choose>
                         <c:when test="${usuarioLogado.tipo == 'ADMIN'}">
-                            <h2>Lista de todos as compras fechados na loja</h2>
+                            <h2>Lista de todos as compras fechadas na loja</h2>
                         </c:when>
                         <c:otherwise>
                             <c:if test="${not empty compras}">

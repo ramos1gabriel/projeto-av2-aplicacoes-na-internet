@@ -41,7 +41,14 @@
                         <div class="produto-vitrine" id="produto${id.count}">
                             <div class="alert alert-danger has-error" role="alert" id="msgErro${id.count}" style="display:none;"></div>
                             <h5>${produto.nome}</h5>
-                            <img class="imgproduto" src="${produto.url}" title="${produto.nome}"/>
+                            <c:choose>
+                                <c:when test="${produto.url != null}">
+                                    <img class="imgproduto" src="${produto.url}" title="${produto.nome}"/>
+                                </c:when>
+                                <c:otherwise>
+                                    <img class="imgproduto" src="${pageContext.request.contextPath}/img/indisponivel.png" title="imagem indisponivel"/>
+                                </c:otherwise>
+                            </c:choose>
                             <h5><fmt:formatNumber value="${produto.preco}" minFractionDigits="2" type="currency"/></h5>
                             <p>${produto.descricao}</p>
                             <p><button type="button" class="btn btn-info" onclick="mostraCampo('${id.count}');">Comprar</button></p>

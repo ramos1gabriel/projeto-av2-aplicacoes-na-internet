@@ -29,10 +29,10 @@
                     <h3>Outros projetos</h3>
                     <ul class="nav nav-pills flex-column">
                         <li class="nav-item">
-                            <a class="nav-link text-info" href="https://jovemnerd.com.br/nerdcast/" target="_blank">Nerdcast</a>
+                            <a class="nav-link text-info" href="https://jovemnerd.com.br/nerdcast/" target="_blank">NerdCast</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-info" href="https://jovemnerd.com.br/nerdplayer/" target="_blank">Nerdplayer</a>
+                            <a class="nav-link text-info" href="https://jovemnerd.com.br/nerdplayer/" target="_blank">NerdPlayer</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-info" href="https://jovemnerd.com.br/nerdologia/" target="_blank">Nerdologia</a>
@@ -60,7 +60,7 @@
                         </c:otherwise>
                       </c:choose>
                     <br>
-                    <h2>Novas franquias pelo mundo todo!</h2>
+                    <h2>Novas franquias pelo mundo</h2>
                     <div><img src="${pageContext.request.contextPath}/img/nova-loja.png" width="730" height="200" title="novas lojas pelo mundo!"/></div>
                     <br>
                     <p>Novas lojas estão sendo abertas pelo mundo todo, sim é isso mesmo que você leu! MUNDO INTEIRO! Agora você de qualquer país pode comprar na Nerdstore, a maior loja nerd do mundo! Veja nossos produtos clicando no botão abaixo.</p>

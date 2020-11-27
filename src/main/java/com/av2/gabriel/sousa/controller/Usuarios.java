@@ -9,7 +9,6 @@ import com.av2.gabriel.sousa.dao.UsuarioDAO;
 import com.av2.gabriel.sousa.model.Usuario;
 import com.av2.gabriel.sousa.util.Util;
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.util.List;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;

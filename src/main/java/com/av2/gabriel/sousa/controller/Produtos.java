@@ -70,18 +70,18 @@ public class Produtos extends HttpServlet {
             if(Util.isBlankOrNull(descricao)){
                 msgErro += "Preencha o campo descrição!\n";
             }
-            if(Util.isBlankOrNull(url)){
+            /*if(Util.isBlankOrNull(url)){
                 msgErro += "Preencha o campo URL imagem!\n";
-            }
+            }*/
             
             if(Util.isBlankOrNull(id)) { //CREATE
-                if(!Util.isBlankOrNull(nome) && !Util.isBlankOrNull(preco) && !Util.isBlankOrNull(descricao) && !Util.isBlankOrNull(url)) {
+                if(!Util.isBlankOrNull(nome) && !Util.isBlankOrNull(preco) && !Util.isBlankOrNull(descricao)) { //&& !Util.isBlankOrNull(url)
                     produtoDao.create(new Produto(nome, Double.valueOf(preco), descricao, url));
                     msgSucesso = "Cadastro criado com sucesso!";
                 }
                 paginaDestino = "cadastroProduto.jsp";
             } else { //UPDATE
-                if(!Util.isBlankOrNull(nome) && !Util.isBlankOrNull(preco) && !Util.isBlankOrNull(descricao) && !Util.isBlankOrNull(url)) {
+                if(!Util.isBlankOrNull(nome) && !Util.isBlankOrNull(preco) && !Util.isBlankOrNull(descricao)) { //&& !Util.isBlankOrNull(url)
                     produtoDao.update(new Produto(Long.valueOf(id), nome, Double.valueOf(preco), descricao, url));
                     populaProdutos(request, produtoDao);
                     paginaDestino = "listaProduto.jsp";

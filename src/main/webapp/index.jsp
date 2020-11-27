@@ -60,7 +60,7 @@
                         </c:otherwise>
                       </c:choose>
                     <br>
-                    <h2>Novas franquias pelo mundo todo!</h2>
+                    <h2>Novas franquias pelo mundo</h2>
                     <div><img src="${pageContext.request.contextPath}/img/nova-loja.png" width="730" height="200" title="novas lojas pelo mundo!"/></div>
                     <br>
                     <p>Novas lojas estão sendo abertas pelo mundo todo, sim é isso mesmo que você leu! MUNDO INTEIRO! Agora você de qualquer país pode comprar na Nerdstore, a maior loja nerd do mundo! Veja nossos produtos clicando no botão abaixo.</p>

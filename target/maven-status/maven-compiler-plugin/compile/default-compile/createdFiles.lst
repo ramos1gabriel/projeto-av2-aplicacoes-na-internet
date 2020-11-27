@@ -11,6 +11,5 @@ com\av2\gabriel\sousa\model\Compra.class
 com\av2\gabriel\sousa\util\Util.class
 com\av2\gabriel\sousa\sql\Conexao.class
 com\av2\gabriel\sousa\dao\ProdutoDAO.class
-com\av2\gabriel\sousa\util\Erro.class
 com\av2\gabriel\sousa\dao\CompraDAO.class
 com\av2\gabriel\sousa\controller\Compras.class

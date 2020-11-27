@@ -44,13 +44,13 @@ function validaCadastro() {
         descricao.removeClass("is-invalid");
     }
     
-    if(url.val() == "") {
+    /*if(url.val() == "") {
         url.addClass("is-invalid");
         msgErro +="Preencha o campo da URL da imagem do produto!<br>";
         retorno = false;
     } else {
         url.removeClass("is-invalid");
-    }
+    }*/
 
     if(!retorno) {
         $("#msgErroCadastro").html(msgErro);

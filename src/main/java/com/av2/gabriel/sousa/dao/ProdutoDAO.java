@@ -7,10 +7,12 @@ package com.av2.gabriel.sousa.dao;
 
 import com.av2.gabriel.sousa.model.Produto;
 import com.av2.gabriel.sousa.sql.Conexao;
+import com.av2.gabriel.sousa.util.Util;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Types;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
@@ -57,7 +59,11 @@ public class ProdutoDAO implements DAO<Produto> {
             stmt.setString(1, produto.getNome());
             stmt.setDouble(2, produto.getPreco());
             stmt.setString(3, produto.getDescricao());
-            stmt.setString(4, produto.getUrl());
+            if(Util.isBlankOrNull(produto.getUrl())) {
+                stmt.setNull(4, Types.VARCHAR);
+            } else {
+                stmt.setString(4, produto.getUrl());
+            }
             stmt.execute();
         } catch (SQLException ex) {
             Logger.getLogger(Conexao.class.getName()).log(Level.SEVERE, null, ex);
@@ -76,7 +82,11 @@ public class ProdutoDAO implements DAO<Produto> {
             stmt.setString(1, produto.getNome());
             stmt.setDouble(2, produto.getPreco());
             stmt.setString(3, produto.getDescricao());
-            stmt.setString(4, produto.getUrl());
+            if(Util.isBlankOrNull(produto.getUrl())) {
+                stmt.setNull(4, Types.VARCHAR);
+            } else {
+                stmt.setString(4, produto.getUrl());
+            }
             stmt.setLong(5, produto.getId());
             stmt.executeUpdate();
             
